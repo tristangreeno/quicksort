@@ -1,0 +1,11 @@
+﻿  ConsoleApplication1.cpp
+c:\users\tristan.greeno\source\repos\consoleapplication1\consoleapplication1\consoleapplication1.cpp(130): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\tristan.greeno\source\repos\consoleapplication1\consoleapplication1\consoleapplication1.cpp(20): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  c:\users\tristan.greeno\source\repos\consoleapplication1\consoleapplication1\consoleapplication1.cpp(118): note: see reference to function template instantiation 'void quick_sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(Iterator,Iterator)' being compiled
+          with
+          [
+              _Ty=unsigned int,
+              Iterator=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned int>>>
+          ]
+c:\users\tristan.greeno\source\repos\consoleapplication1\consoleapplication1\consoleapplication1.cpp(20): warning C4244: 'initializing': conversion from '__int64' to 'const int', possible loss of data
+  ConsoleApplication1.vcxproj -> C:\Users\tristan.greeno\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
