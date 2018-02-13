@@ -1,13 +1,12 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   stdafx.cpp
   quicksort.cpp
-c:\users\tristan.greeno\source\repos\consoleapplication1\consoleapplication1\quicksort.cpp(123): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\tristan.greeno\source\repos\consoleapplication1\consoleapplication1\quicksort.cpp(17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-  c:\users\tristan.greeno\source\repos\consoleapplication1\consoleapplication1\quicksort.cpp(114): note: see reference to function template instantiation 'void quick_sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(Iterator,Iterator)' being compiled
+c:\users\tristan.greeno\source\repos\consoleapplication1\consoleapplication1\quicksort.cpp(585): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\tristan.greeno\source\repos\consoleapplication1\consoleapplication1\quicksort.cpp(548): warning C4244: 'argument': conversion from 'const __int64' to 'int', possible loss of data
+  c:\users\tristan.greeno\source\repos\consoleapplication1\consoleapplication1\quicksort.cpp(576): note: see reference to function template instantiation 'void quick_sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(Iterator,Iterator)' being compiled
           with
           [
-              _Ty=unsigned int,
-              Iterator=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned int>>>
+              _Ty=int_fast16_t,
+              Iterator=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int_fast16_t>>>
           ]
-c:\users\tristan.greeno\source\repos\consoleapplication1\consoleapplication1\quicksort.cpp(17): warning C4244: 'initializing': conversion from '__int64' to 'const int', possible loss of data
   ConsoleApplication1.vcxproj -> C:\Users\tristan.greeno\source\repos\ConsoleApplication1\x64\Debug\QuickSort.exe
